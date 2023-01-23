@@ -1,27 +1,16 @@
 import React from 'react'
-import Navitem from './Navitem';
+import Navabr from '../component/Navbar'
 
- function Navbar() {
+const About = () => {
   return (
    <>
+   <Navabr/>
+   <h1>
+    about
+   </h1>
 
-
-<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container-fluid">
-          <img src=".\public\images\coffee1.png" alt="" style="height: 60px;  margin-right:30px ;" />
-
-          <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"><i class="bi bi-list"></i>
-            </span>
-          </button>
-      <Navitem/>
-        
-      </div>
-      </nav>     
-      
-    
-      {/* <div class="container ">
-        <div class="row justify-content-center text-center" style="padding:20px 20px 0 50px; margin-top: 10px;">
+   
+   {/* <div class="row justify-content-center text-center" style="padding:20px 20px 0 50px; margin-top: 10px;">
           <div class="col-lg-6  ">
             <div class="ftco-footer-widget mb-3">
               <h2 class="ftco-heading-2 " style="font-family:'Montez', cursive;  color:chocolate">About Durga Cafe</h2>
@@ -30,13 +19,13 @@ import Navitem from './Navitem';
           </div>
 
         <div class="col-lg-6 mb-lg-4 ">
-           <img src="./images/cofcup.png" alt="" class="img-fluid" style="height:300px; width:350px;">
-       </div><br>
+           <img src="./images/cofcup.png" alt="" class="img-fluid" style="height:300px; width:350px;"/>
+       </div><br/>
        </div>
 
        <div class="row justify-content-center text-center" style="padding:20px 20px 0 50px; margin-top: 10px;">
         <div class="col-lg-6 mb-lg-4 ">
-          <img src="./images/cofcup2.jpg" alt="" class="img-fluid" style="height:300px; width:350px;">
+          <img src="./images/cofcup2.jpg" alt="" class="img-fluid" style="height:300px; width:350px;"/>
       </div>
         <div class="col-lg-6">
           <div class="ftco-footer-widget mb-3">
@@ -44,7 +33,7 @@ import Navitem from './Navitem';
             <p class="text-dark">We at Cafe Durga, are dedicated to the production of high quality products which provide value for money to our customer. We intend to satisfy our customers by offering products at competitive prices as per their taste and demand.</p>
             </div>
         </div>
-     <br>
+     <br/>
      </div>
 
 
@@ -57,13 +46,12 @@ import Navitem from './Navitem';
       </div>
 
     <div class="col-lg-6 mb-lg-4 ">
-       <img src="./images/cofcup3.jpg" alt="" class="img-fluid" style="height:300px; width:350px;">
-   </div><br>
-   </div>
-</div> */}
-
-
+       <img src="./images/cofcup3.jpg" alt="" class="img-fluid" style="height:300px; width:350px;"/>
+   </div><br/>
+   </div> */}
+     
    </>
   )
 }
-export default Navbar;
+
+export default About

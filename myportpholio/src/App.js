@@ -1,24 +1,16 @@
 import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home from "./Routes/Home";
-import Contact from "./Routes/Contact";
-import {Routes,Route} from "react-router-dom";
 
 const App = () => {
   return (
 <>
-<Routes>
-  <Route  path="/" element={<Home/>}   />
-  <Route  path="/Contact" element={<Contact/>}   />
-  
-</Routes>
 
+<Home/>
 
 </>
 
-    // <div className='App'>
-    //   <Home/>
-    //   <Contact/>
-    // </div>
+   
   )
 }
 
