@@ -10,7 +10,7 @@ const Weather = () => {
         let componentMounted = true;
 
         const fetchWeather = async () => {
-            const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=7fd14f3061d06a5112005a4be678d16d`)
+            const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=b81d4433a6b38123c1394c6eaf819efa`)
             if (componentMounted) {
                 setData(await response.json());
                 console.log(data);
