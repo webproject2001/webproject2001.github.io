@@ -30,7 +30,7 @@ return index !== id ;
    <div className='main-div'>
     <div className='center-div '>
      <br/>
-     <h1>Today's Plan</h1>
+     <h1>Today's Plan </h1>
      <input type="text" placeholder="Write today's plan here"  value={inputList} onChange={ itemEvent}/>
      {/* <button onClick={listOfItems} >+</button> */} 
      <AddCircleSharpIcon onClick= {listOfItems} />
